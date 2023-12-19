@@ -10,18 +10,25 @@ import ImgChange from './js/ImgChange';
 import ObjectExample from './js/ObjectExample';
 import AnimalSound from './js/Animal';
 import TimerCount from './js/TimerCount';
+import ExampleCallback from './js/ExampleCallback';
+import PracticeTwo from './js/PracticeTwo';
+import Blog from './js/Blog';
+import App from './js/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/*<App />*/}
     {/*<Count />*/}
-    <ToggleButton />
-    <IndexExample />
-    <ImgChange />
-    <ObjectExample />
-    <AnimalSound />
-    <TimerCount />
+    {/* <ToggleButton /> */}
+    {/* <IndexExample /> */}
+    {/* <ImgChange /> */}
+    {/* <ObjectExample /> */}
+    {/* <AnimalSound /> */}
+    {/* <TimerCount /> */}
+    {/* <ExampleCallback /> */}
+    {/* <PracticeTwo /> */}
+    <App />
   </React.StrictMode>
 );
 
